@@ -1,10 +1,10 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
-	public class Main{ 
+	public class Bmi{ 
 		public static void main(String[] args){
 			Scanner sc = new Scanner(System.in);
-			System.out.println("1人目");
+			System.out.println("1人目:");
 			System.out.print("身長:");
 			int hight = sc.nextInt();
 			System.out.print("体重");
@@ -15,7 +15,7 @@ import java.util.Scanner;
 			bd = bd.setScale(2,RoundingMode.DOWN);
 			System.out.println("BMI" + bd);
 			
-			System.out.println("2人目");
+			System.out.println("2人目:");
 			System.out.print("身長:");
 			int hight2 = sc.nextInt();
 			System.out.print("体重");
