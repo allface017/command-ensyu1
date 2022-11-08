@@ -4,7 +4,11 @@ import java.util.Scanner;
 	public class Bmi{ 
 		public static void main(String[] args){
 			Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
 			System.out.println("1人目:");
+=======
+			System.out.println("1人目");
+>>>>>>> 06b24dfd639df55fc6cb27c8dd61884c6c8f9cb1
 			System.out.print("身長:");
 			int hight = sc.nextInt();
 			System.out.print("体重");
@@ -15,7 +19,11 @@ import java.util.Scanner;
 			bd = bd.setScale(2,RoundingMode.DOWN);
 			System.out.println("BMI" + bd);
 			
+<<<<<<< HEAD
 			System.out.println("2人目:");
+=======
+			System.out.println("2人目");
+>>>>>>> 06b24dfd639df55fc6cb27c8dd61884c6c8f9cb1
 			System.out.print("身長:");
 			int hight2 = sc.nextInt();
 			System.out.print("体重");
